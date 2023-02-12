@@ -1,0 +1,87 @@
+div{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input{
+      border-radius: 2px;
+      border: 1px grey solid;
+      height: 30px;
+  }
+
+  .modal{
+    border: 1px black solid;
+    width: 50%;
+    max-width: 500px;
+    height: 50vh;
+    padding: 20px;
+    
+  }
+
+  header{
+    width: 80%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  section{
+    width: 80%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer{
+    width: 80%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top:10px;
+  }
+
+  input[type=email]{
+    width: 100%;
+  }
+
+  .name{
+    margin-top: 10px;
+  }
+
+  .first, .last{
+    display: inline-block;
+  }
+
+  .message{
+    margin-top: 10px;
+  }
+
+  textarea{
+    border-radius: 2px;
+    border: 1px grey solid;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+.check{
+  position: absolute;
+  top: 10%;
+}
+
+  input[type=submit]{
+    background-color: yellowgreen;
+    border-radius: 2px;
+    color: white;
+    width: 40%;
+    height: 70%;
+    border: none;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+  }
