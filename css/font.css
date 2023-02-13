@@ -1,0 +1,14 @@
+@font-face{
+    font-family: '이쁜폰트';
+    font-weight: 500px;
+    src: url(../font/NanumSquareR.woff);
+}
+
+p{
+    margin: 0px;
+    font-family: '이쁜폰트', 'dotum', 'arial';
+}
+
+p,h4,h3,h2, span{
+    transform: rotate(0.003deg);
+}
