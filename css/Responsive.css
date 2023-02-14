@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.test{
+    /*width: 50vw;*/
+    /*height: 100vh;*/
+
+    /*rem은 기본 px(16)의 배수 10rem = 160px*/
+    /*width: 10rem;*/
+    font-size: 10px;
+
+    /*내 폰트 사이즈의 n배*/
+    /*width: 20em;*/
+    background: grey;
+}
+
+@media screen and (max-width: 700px){
+    .media-test {
+        font-size: 30px;
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .media-test {
+        font-size: 30px;
+        background: red;
+    }
+}
