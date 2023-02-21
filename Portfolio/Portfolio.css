@@ -9,17 +9,48 @@ h1,h2{
 .iphone-background{
     background: blue;
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     position: relative;
 }
 
 .iphone{
-    width: 30%;
+    height: 80%;
     position: absolute;
     right: 5%;
     bottom: 0;
 }
 
 .subheader{
-    margin-top: 1px;
+    position: absolute;
+    width: 20%;
+    top: 5rem;
+    left: 5rem;
+    color: white;
+    word-wrap: break-word;
+}
+
+.subheader-button{
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.md{
+    height: 30vh;
+}
+
+.md-subheader{
+    text-align: center;
+    padding-top: 3% 
+}
+
+.md-subheader-button{
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+
+.bt{
+    height: 40vh;
+    background: blue;
 }
