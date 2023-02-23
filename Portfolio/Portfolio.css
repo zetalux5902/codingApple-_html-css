@@ -91,3 +91,16 @@ button{
 .bt-content-icons{
     font-size: 30px;
 }
+
+.pf-t{
+    text-align: center;
+    padding-top: 3em;
+}
+
+.pf-ct{
+    color: white;
+}
+
+.pf-ct-img{
+    display: inline-block;
+}
