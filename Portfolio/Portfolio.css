@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    box-sizing: border-box;
 }
 
 h1,h2{
@@ -18,7 +19,7 @@ button{
 }
 
 .iphone{
-    height: 80%;
+    height: 300px;
     position: absolute;
     right: 5%;
     bottom: 0;
@@ -99,8 +100,44 @@ button{
 
 .pf-ct{
     color: white;
+    width: 75%;
+    margin: auto;
 }
 
-.pf-ct-img{
-    display: inline-block;
+.pf-tf-items{
+    display: flex;
+    justify-content: center;
+}
+
+.ft-ic-background{
+    background-color: purple;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 2%;
+}
+
+.pf-footer{
+    text-align: center;
+}
+
+.pf-ct-img:hover{
+    outline: 30px solid white;
+    outline-offset: -30px;
+    transition: all 1s;
+}
+
+@media screen and (max-width: 768px){
+    .subheader, .iphone{
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+    .iphone-background{
+        height: 70vh;
+    }
 }
