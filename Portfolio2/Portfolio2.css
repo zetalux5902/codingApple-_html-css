@@ -59,7 +59,7 @@
 }
 
 @media screen and (max-width: 400px){
-    .profile {
+    .d-flex {
         display: flex;
         flex-direction: column;
     }
