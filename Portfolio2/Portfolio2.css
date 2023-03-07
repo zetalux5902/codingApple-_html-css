@@ -34,3 +34,33 @@
     left: 46%;
     top: 23%;
 }
+
+.location-icon{
+    height: 20px;
+    position: relative;
+}
+
+.location-big-icon{
+    color: #6fbaf8;
+    position: absolute;
+    font-size: 20px;
+    left: 2px;
+}
+
+.location-small-icon{
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    z-index: 1;
+    left: 4%;
+    top: 10%;
+}
+
+@media screen and (max-width: 400px){
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+}
