@@ -6,6 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/main.css" rel="stylesheet">
+    <style>
+        /* -webkit- : 크롬, 사파리, Edge에서만 적용되는 스타일 / moz: Firefox 등등 */
+        input[type=file]::-webkit-file-upload-button {
+            background: skyblue;
+            border: none;
+        }
+
+        input::-webkit-input-placeholder{
+            color: red;
+        }
+
+        /* input[type="range" i]::-webkit-slider-runnable-track{
+            background: red;
+        } */
+
+        input[type="range" i]{
+            appearance: none; /* 브라우저 기본 css 안보이게 해줌 */
+        }
+
+        input[type="range" i]::-webkit-slider-thumb {
+            appearance: none; /* 브라우저 기본 css 안보이게 해줌 */
+            background: green;
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
     <!-- [if lt IE 9]
         <link href="css/ie7.css" rel="stylesheet" type="text/css">
         <![endif] -->
@@ -25,7 +52,7 @@
                 </div>
                 <br>
                 <div class="main-guide">
-                    <h4>How we design our shoes</h4>
+                    <h4 class="pseudo">How we design our shoes</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aut modi similique voluptatem officiis numquam accusantium quas temporibus sit hic? Rerum dolore modi commodi doloremque magnam animi alias, eum doloribus.</p>
                 </div>
             </div>
@@ -38,6 +65,10 @@
                     <option>dsfsd</option>
                     <option>dsfsd</option>
                 </select>
+                <input type="file">
+                <input type="text" placeholder="안녕하세요">
+                <input type="range">
+                <progress value="0.5"></progress>
             </form>
     </div>
 </body>

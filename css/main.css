@@ -136,3 +136,21 @@ table{
   border-collapse: collapse;
 }
 
+/* pseudo-class: 태그가 다른 상태일 때 */
+
+
+
+/* pseudo-element: 내부의 일부분만 스타일줄 때
+:: after
+:: before
+:: line
+
+파일 타입의 버튼도 style가능, 
+pseudo-element에 pseudo-class도 가능
+.input-file::file-selector-button: hover {}
+
+
+.pseudo::first-letter {
+  
+}
+*/
